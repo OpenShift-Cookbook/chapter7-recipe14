@@ -1,0 +1,2 @@
+#!/bin/bash
+mvn install:install-file -Dfile=$OPENSHIFT_REPO_DIR/lib/simplelogger-0.0.1.jar -DgroupId=org.osbook -DartifactId=simplelogger -Dversion=0.0.1 -Dpackaging=jar
